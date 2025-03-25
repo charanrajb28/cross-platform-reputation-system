@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const EXPRESS_API_BASE_URL = "http://localhost:5000"; // Change if deployed
+const EXPRESS_API_BASE_URL = "https://blockserver-1.onrender.com"; // Change if deployed
 
 export async function GET(req, { params }) {
     try {
